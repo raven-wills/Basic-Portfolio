@@ -1,0 +1,28 @@
+body {
+  background-image: url("../images/funky-lines.png");
+  width: 960px;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+header {
+  background-color: white;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.container {
+  margin-top: 20px;
+}
