@@ -18,10 +18,21 @@ img {
   height: 200px;
   padding-right: 18px;
   margin-top: 7px;
+  border-radius: 15px;
+}
+
+.headshot {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 18px;
+  margin-top: 7px;
+  border-radius: 15px;
+  padding: 0;
 }
 
 header {
-  background-color: #fafdfd;
+  background-color: #fafbf7;
   margin-bottom: 10px;
   height: 60px;
   border-bottom: 2px solid #4f9995;
@@ -42,7 +53,7 @@ h1 {
   font-size: 1.4em;
   background-color: #4aaaa5;
   padding: 0 20px;
-  color: #333;
+  color: #fafbf7;
 }
 
 nav {
@@ -52,7 +63,10 @@ nav {
 nav li {
   display: inline;
   padding: 0 5px;
-  border-right: 1px solid rgb(167, 166, 166);
+}
+
+.border-right {
+  border-right: 1px solid #ddad8f;
 }
 
 nav li a {
@@ -71,10 +85,11 @@ nav li a {
   width: 960px;
   margin: auto;
   margin-top: 25px;
-  padding: 10px 15px;
-  background-color: #fafdfd;
+  padding: 35px 50px;
+  background-color: #fafbf7;
   line-height: 1.6;
   color: #151717;
+  border-radius: 15px;
 }
 
 .container-content {
@@ -85,29 +100,81 @@ h2 {
   text-align: left;
   color: #4f9995;
   font-size: 1.4em;
-  line-height: 60px;
 }
 
 hr {
   border: none;
   height: 1px;
-  background-color: #4f9995;
-  color: #4f9995;
+  background-color: #ddad8f;
+  color: #ddad8f;
 }
 
 footer {
   text-align: center;
-  position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #fafdfd;
-  border-top: 6px solid #4f9995;
+  background-color: #fafbf7;
+  border-top: 6px solid #ddad8f;
   height: 45px;
+  position: absolute;
 }
 
 footer span {
-  position: absolute;
   bottom: 5px;
   right: 0;
   left: 0;
+  position: absolute;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4f9995;
+  padding: 13px 20px;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.main-gallery {
+  height: calc(100vh - 135px);
+  width: 960px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: scroll;
+}
+
+figure.portLink {
+  position: relative;
+  z-index: 2;
+  margin: 10px;
+}
+
+figure img {
+  padding: 0;
+}
+
+figcaption {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.8em 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }

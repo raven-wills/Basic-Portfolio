@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -17,36 +17,44 @@
             <nav>
                 <ul>
 
-                    <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
+                    <li class="border-right">
+                        <a href="index.html">About</a>
+                    </li>
+
+                    <li class="border-right">
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
     <div class="container">
-        <h2>About Me</h2>
+        <h2>Contact</h2>
         <hr>
-        <div class="container-content">
-            <img src="assets/images/newhaircut.jpg" alt="Author's Headshot">
-            <p>There was a war. A Time War. The Last Great Time War. My people fought a race called the Daleks, for the sake
-                of all creation. And they lost. We lost. Everyone lost. They're all gone now. My family. My friends. Even
-                that sky. I'm sorry. I'm so sorry. I'll tell you what, then: don't...step on any butterflies. What have butterflies
-                ever done to you? I'd call you a genius, except I'm in the room. Oh, yes. Harmless is just the word: that's
-                why I like it! Doesn't kill, doesn't wound, doesn't maim. But I'll tell you what it does do: it is very good
-                at opening doors!
-            </p>
-
-            <p> You can spend the rest of your life with me, but I can't spend the rest of mine with you. I have to live on.
-                Alone. That's the curse of the Time Lords. Blimey, trying to make an Ood laugh... There was a war. A Time
-                War. The Last Great Time War. My people fought a race called the Daleks, for the sake of all creation. And
-                they lost. We lost. Everyone lost. They're all gone now. My family. My friends. Even that sky. Yeah? Well
-                I'm the Lord of Time. It is! It's the city of New New York! Strictly speaking, it's the fifteenth New York
-                since the original, so that makes it New-New-New-New-New-New-New-New-New-New-New-New-New-New-New New York.</p>
-        </div>
+        <form>
+            Name:
+            <br>
+            <input type="text" name="name" value="Jane Doe">
+            <br>
+            <br> Email:
+            <br>
+            <input type="email" name="email" value="example@gmail.com ">
+            <br>
+            <br> Message:
+            <br>
+            <textarea name="paragraph_text " rows="10 "></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
+
     <footer>
-        <span>Copyright</span>
+        <span>Copyright &copy;</span>
     </footer>
 </body>
 
