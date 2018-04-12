@@ -34,7 +34,7 @@ img {
 header {
   background-color: #fafbf7;
   margin-bottom: 10px;
-  height: 60px;
+  height: 58px;
   border-bottom: 2px solid #4f9995;
 }
 
@@ -73,6 +73,12 @@ nav li a {
   padding: 10px;
   text-decoration: none;
   color: #333;
+}
+
+nav a:hover {
+  background-color: #ddad8f;
+  border-radius: 15px;
+  transition: all 0.3s ease 0s;
 }
 
 .header-content {
@@ -141,6 +147,11 @@ input[type="submit"] {
   padding: 13px 20px;
   font-size: 15px;
   border-radius: 25px;
+}
+
+input[type="submit"]:hover {
+  background-color: #ddad8f;
+  transition: all 0.3s ease 0s;
 }
 
 textarea {
