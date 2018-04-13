@@ -25,8 +25,7 @@ img {
   float: left;
   width: 200px;
   height: 200px;
-  margin-right: 18px;
-  margin-top: 7px;
+  margin: 10px 18px 25px 0;
   border-radius: 15px;
   padding: 0;
 }
@@ -195,8 +194,10 @@ figcaption {
 
 .quote {
   color: #ddad8f;
+  text-align: center;
 }
 
 p {
   padding-top: 10px;
+  text-indent: 2em;
 }
